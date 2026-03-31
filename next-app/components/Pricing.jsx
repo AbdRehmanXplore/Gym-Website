@@ -28,11 +28,11 @@ export default function Pricing() {
             <span className={`font-bold uppercase tracking-widest text-xs sm:text-sm transition-colors ${!isAnnual ? 'text-white' : 'text-secondary'}`}>
               Monthly
             </span>
-            <div 
+            <div
               className="w-14 sm:w-16 h-7 sm:h-8 bg-surface-container-high relative p-1 cursor-pointer rounded-sm"
               onClick={() => setIsAnnual(!isAnnual)}
             >
-              <div 
+              <div
                 className={`absolute left-[2px] top-[2px] sm:left-1 sm:top-1 w-5 h-5 sm:w-6 sm:h-6 bg-primary-container transition-all duration-300 ${isAnnual ? 'translate-x-[28px] sm:translate-x-[32px]' : 'translate-x-0'}`}
               ></div>
             </div>
@@ -42,7 +42,7 @@ export default function Pricing() {
             </span>
           </div>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-0 max-w-[400px] md:max-w-none mx-auto">
           {/* Basic */}
           <div className="bg-surface-container-low p-8 sm:p-12 flex flex-col items-center border-y-4 md:border-y-0 md:border-x-2 border-white/5 transition-transform md:hover:scale-105 md:hover:z-10 w-full rounded-2xl md:rounded-r-none md:rounded-l-2xl">
@@ -62,19 +62,19 @@ export default function Pricing() {
             </div>
             <ul className="w-full space-y-4 sm:space-y-6 mb-8 sm:mb-12 text-sm sm:text-base">
               <li className="flex items-center gap-3 sm:gap-4 text-secondary font-medium">
-                <span className="material-symbols-outlined text-primary-container text-xl sm:text-2xl">check_circle</span> 
+                <span className="material-symbols-outlined text-primary-container text-xl sm:text-2xl">check_circle</span>
                 Access to gym floor
               </li>
               <li className="flex items-center gap-3 sm:gap-4 text-secondary font-medium">
-                <span className="material-symbols-outlined text-primary-container text-xl sm:text-2xl">check_circle</span> 
+                <span className="material-symbols-outlined text-primary-container text-xl sm:text-2xl">check_circle</span>
                 Locker room access
               </li>
               <li className="flex items-center gap-3 sm:gap-4 text-secondary/30 font-medium">
-                <span className="material-symbols-outlined text-xl sm:text-2xl">cancel</span> 
+                <span className="material-symbols-outlined text-xl sm:text-2xl">cancel</span>
                 Group classes
               </li>
               <li className="flex items-center gap-3 sm:gap-4 text-secondary/30 font-medium">
-                <span className="material-symbols-outlined text-xl sm:text-2xl">cancel</span> 
+                <span className="material-symbols-outlined text-xl sm:text-2xl">cancel</span>
                 1-on-1 Training
               </li>
             </ul>
@@ -82,7 +82,7 @@ export default function Pricing() {
               Get Started
             </button>
           </div>
-          
+
           {/* Pro */}
           <div className="bg-surface-bright p-8 sm:p-12 flex flex-col items-center relative transition-transform scale-100 md:scale-110 z-20 shadow-2xl shadow-black/80 w-full rounded-2xl md:rounded-none">
             <div className="absolute top-0 left-0 w-full h-1.5 bg-primary-container rounded-t-2xl md:rounded-none"></div>
@@ -105,19 +105,19 @@ export default function Pricing() {
             </div>
             <ul className="w-full space-y-4 sm:space-y-6 mb-8 sm:mb-12 text-sm sm:text-base">
               <li className="flex items-center gap-3 sm:gap-4 text-white font-medium">
-                <span className="material-symbols-outlined text-primary-container text-xl sm:text-2xl">check_circle</span> 
+                <span className="material-symbols-outlined text-primary-container text-xl sm:text-2xl">check_circle</span>
                 Everything in Basic
               </li>
               <li className="flex items-center gap-3 sm:gap-4 text-white font-medium">
-                <span className="material-symbols-outlined text-primary-container text-xl sm:text-2xl">check_circle</span> 
+                <span className="material-symbols-outlined text-primary-container text-xl sm:text-2xl">check_circle</span>
                 Unlimited Group Classes
               </li>
               <li className="flex items-center gap-3 sm:gap-4 text-white font-medium">
-                <span className="material-symbols-outlined text-primary-container text-xl sm:text-2xl">check_circle</span> 
+                <span className="material-symbols-outlined text-primary-container text-xl sm:text-2xl">check_circle</span>
                 2 Guest Passes / Mo
               </li>
               <li className="flex items-center gap-3 sm:gap-4 text-secondary/30 font-medium">
-                <span className="material-symbols-outlined text-xl sm:text-2xl">cancel</span> 
+                <span className="material-symbols-outlined text-xl sm:text-2xl">cancel</span>
                 Sauna &amp; Spa
               </li>
             </ul>
@@ -125,7 +125,7 @@ export default function Pricing() {
               Select Pro
             </button>
           </div>
-          
+
           {/* Elite */}
           <div className="bg-surface-container-low p-8 sm:p-12 flex flex-col items-center border-y-4 md:border-y-0 md:border-x-2 border-white/5 transition-transform md:hover:scale-105 md:hover:z-10 w-full rounded-2xl md:rounded-l-none md:rounded-r-2xl">
             <h3 className="font-headline font-black text-white text-2xl sm:text-3xl uppercase mb-6 sm:mb-8">
@@ -144,19 +144,19 @@ export default function Pricing() {
             </div>
             <ul className="w-full space-y-4 sm:space-y-6 mb-8 sm:mb-12 text-sm sm:text-base">
               <li className="flex items-center gap-3 sm:gap-4 text-secondary font-medium">
-                <span className="material-symbols-outlined text-primary-container text-xl sm:text-2xl">check_circle</span> 
+                <span className="material-symbols-outlined text-primary-container text-xl sm:text-2xl">check_circle</span>
                 Everything in Pro
               </li>
               <li className="flex items-center gap-3 sm:gap-4 text-secondary font-medium">
-                <span className="material-symbols-outlined text-primary-container text-xl sm:text-2xl">check_circle</span> 
+                <span className="material-symbols-outlined text-primary-container text-xl sm:text-2xl">check_circle</span>
                 Unlimited Sauna &amp; Spa
               </li>
               <li className="flex items-center gap-3 sm:gap-4 text-secondary font-medium">
-                <span className="material-symbols-outlined text-primary-container text-xl sm:text-2xl">check_circle</span> 
+                <span className="material-symbols-outlined text-primary-container text-xl sm:text-2xl">check_circle</span>
                 Weekly 1-on-1 PT Session
               </li>
               <li className="flex items-center gap-3 sm:gap-4 text-secondary font-medium">
-                <span className="material-symbols-outlined text-primary-container text-xl sm:text-2xl">check_circle</span> 
+                <span className="material-symbols-outlined text-primary-container text-xl sm:text-2xl">check_circle</span>
                 Nutrition Coaching
               </li>
             </ul>
