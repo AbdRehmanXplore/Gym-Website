@@ -32,7 +32,7 @@ export default function HeroSection() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
       </div>
-      <div className="relative z-10 text-center px-4 w-full max-w-5xl pt-24 sm:pt-32 md:pt-40">
+      <div className="relative z-10 text-center px-4 w-full max-w-5xl pt-24 sm:pt-32 md:pt-40 pb-20 md:pb-32">
         <span className="text-primary-container text-xs sm:text-sm md:text-base font-headline font-bold tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-4 block">
           Forged in Steel
         </span>
